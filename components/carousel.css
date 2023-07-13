@@ -1,0 +1,169 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+.slick-slide {
+  margin: 50px 0;
+}
+.App {
+  
+  width: 80%;
+  margin: 10rem auto;
+  height: 570px;
+}
+
+.slide img {
+  width: 20rem;
+  margin: 0 auto;
+  height: 30rem;
+  width: 100%;
+}
+
+.slide {
+  transform: scale(0.2);
+  transition: transform 300ms;
+  opacity: 0.5;
+}
+
+.activeSlide {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.arrow {
+  background: none;
+  position: absolute;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.arrow svg {
+  transition: color 300ms;
+}
+
+.arrow svg:hover {
+  color: #68edff;
+}
+
+.next {
+  right: 0%;
+  top: 50%;
+}
+
+.prev {
+  left: 0%;
+  top: 50%;
+}
+
+@media(max-width:541px){
+  .App{
+    width: 105%;
+    padding-top: 3rem;
+    margin: 0 5rem 0 5rem;
+  }
+  
+  .slide img {
+    margin: auto;
+    width: 12rem;
+  }
+  }
+  @media(max-width:415px){
+    .App{
+      width: 150%;
+      padding-top: 3rem;
+      margin: 0 3rem 0 2rem;
+    }
+    
+    .slide img {
+      width: 30rem;
+      margin: auto;
+      width: 12rem;
+    }
+    }
+    @media(max-width:413px){
+      .App{
+        width: 145%;
+        padding-top: 3rem;
+        margin: 0 3rem 0 3rem;
+      }
+      
+      .slide img {
+        width: 30rem;
+        margin: auto;
+        width: 12rem;
+      }
+      }
+@media(max-width:394px){
+  .App{
+    width: 150%;
+    padding-top: 3rem;
+    margin: 0 3rem 0 3rem;
+  }
+  
+  .slide img {
+    width: 30rem;
+    margin: auto;
+    width: 12rem;
+  }
+  }
+@media(max-width:391px){
+  .App{
+    width: 150%;
+    padding-top: 3rem;
+    margin: 0 3rem 0 3rem;
+  }
+  
+  .slide img {
+    width: 30rem;
+    margin: auto;
+    width: 12rem;
+  }
+  }
+@media(max-width:376px){
+.App{
+  width: 150%;
+  padding-top: 3rem;
+  margin: 0 3rem 0 3.5rem;
+}
+
+.slide img {
+  width: 30rem;
+  margin: auto;
+  width: 12rem;
+}
+}
+@media(max-width:362px){
+  .App{
+    width: 160%;
+    padding-top: 3rem;
+    margin: 0 3rem 0 3rem;
+  }
+  
+  .slide img {
+    width: 30rem;
+    margin: auto;
+    width: 12rem;
+  }
+  }
+  @media(max-width:281px){
+    .App{
+      width: 200%;
+      padding-top: 3rem;
+      margin: 0 5rem 0 4rem;
+    }
+    
+    .slide img {
+      width: 30rem;
+      height:25rem;
+      margin: auto;
+      width: 12rem;
+    }
+    }
+
+
+  
+
+
+      
+       
+          
+            
